@@ -9,7 +9,6 @@ body{
     width: 100%;
     color: white;
     min-height: 100vh;
-
 }
 nav{
     position: fixed;
@@ -25,29 +24,18 @@ nav{
     padding: 10px 20px;
     box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.3);
 }
-.logo {
-    margin-left: 0;
-    text-decoration: 0;
-    color: white;
-    font-size: 25px;
-    font-weight: 600;
-
+.logo{
+    width:10%;
+    height: 10%;
 }
-.logo  i{
-    color: #29fd7e;
-    margin-right: 10px;
-   font-size: 25px;
-   
+nav img{
+    width: 100%;
+    height: 100%;
 }
 .center-links{
     align-items: center;
     justify-content: center;
     align-items: center;
-    margin-left: 80px;
-}
-.logo  span{
-    margin-left: 10px;
-    color: #29fd7e;
 }
 .center-links ul{
     display: flex;
@@ -116,12 +104,13 @@ nav{
 .hero{
     display: flex;
     justify-content: space-between;
-   align-items: center;
+    align-items: center;
 }
 .left-hero{
    display: flex;
    flex-direction: column;
-   margin:100px auto;
+   margin: 150px auto;
+   position: relative;
 }
 .left-hero h1{
     font-size: 50px;
@@ -137,7 +126,7 @@ nav{
     color: #07e35f;
 }
 .left-hero .search-bar{
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: white;
     color: black;
     display: grid;
@@ -145,6 +134,12 @@ nav{
     padding: 10px;
     border-radius: 15px;
     box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
+    display: flex;
+    position: absolute;
+    z-index: 1000px;
+    top: 100%;
+    width: 600px;
+
 }
 .search-bar .seach-item{
     position: relative;
